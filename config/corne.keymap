@@ -67,10 +67,10 @@
 
         NAV {
             bindings = <
-&none  &trans  &trans  &trans  &trans  &trans    &kp LG(Z)  &kp LG(C)  &kp LG(X)      &kp LG(V)    &kp LG(LS(Z))  &none
-&none  &trans  &trans  &trans  &trans  &trans    &kp CAPS   &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT      &none
-&none  &trans  &trans  &trans  &trans  &trans    &trans     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &none
-                       &trans  &trans  &trans    &trans     &trans     &trans
+&none  &trans    &trans    &trans     &trans     &trans    &kp LG(Z)  &kp LG(C)  &kp LG(X)      &kp LG(V)    &kp LG(LS(Z))  &none
+&none  &kp LWIN  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp CAPS   &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT      &none
+&none  &trans    &trans    &trans     &trans     &trans    &trans     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &none
+                           &trans     &trans     &trans    &trans     &trans     &trans
             >;
         };
     };
